@@ -5,15 +5,15 @@ Make sure to create a symbolic link to your CLI
 
 ```
 $ npm link  # from inside the directory that the file lives in.
-# It takes a CLI and installs it inside the bin folder
+It takes a CLI and installs it inside the bin folder
 $ which node
 $ which note 
-# ../../bin/note
-# All cli's live inside the /bin folder
+../../bin/note
+All cli's live inside the /bin folder
 
-# The package.json has "type": "module", which let's you use modules in the ES6 way.
-# and it has "bin": { "note": "./index.js" }, which `note` is the the name of the cli command 
-# and it points to index.js. You want the name of the cli command to be a globally unique name.
+The package.json has "type": "module", which let's you use modules in the ES6 way.
+and it has "bin": { "note": "./index.js" }, which `note` is the the name of the cli command 
+and it points to index.js. You want the name of the cli command to be a globally unique name.
 
 ```
 ## Added the shebang to index.js to let it what enviroment to run it one in this case node.
