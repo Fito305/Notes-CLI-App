@@ -60,10 +60,11 @@ db.json - acts like a database for our project.
 ``` 
 How to use in CLI
 
+$note --help
 $note new "note to add" --tags "any tags"
 $note all # lists all notes
 $note find <filter>
 $note remove <id>
-$note clear # removes all notes
+$note clean # removes all notes
 
 ```
