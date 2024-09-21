@@ -66,5 +66,6 @@ $note all # lists all notes
 $note find <filter>
 $note remove <id>
 $note clean # removes all notes
+$note web [port]
 
 ```
